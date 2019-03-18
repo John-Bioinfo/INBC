@@ -24,7 +24,8 @@ java countBases test_section.pileup
 
 or
 
-```samtools view -f 2 -u my.bam chr17:7570000–7590000 | samtools rmdup - - | samools mpileup -f hg19.fa -q 20 -  |  sequenza-utils.py pileup2acgt - | gzip > result.txt.gz
+```
+samtools view -f 2 -u my.bam chr17:7570000–7590000 | samtools rmdup - - | samools mpileup -f hg19.fa -q 20 -  |  sequenza-utils.py pileup2acgt - | gzip > result.txt.gz
 ```
 
 #### sequenza here   https://bitbucket.org/sequenzatools/sequenza-utils
